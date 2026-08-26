@@ -4,7 +4,7 @@ local library, object, global, typeface =
 	loadstring(game:HttpGet "https://raw.githubusercontent.com/filipisbetter/gui/refs/heads/main/globals.lua")(),
 	loadstring(game:HttpGet "https://github.com/fayvrit/Typeface/raw/refs/heads/main/Register.lua")()
 
-library.bindstr = global.json("decode", global.request {Url = "https://github.com/fayvrit/millionware/raw/refs/heads/main/bindstr.json"}.Body)
+library.bindstr = global.json("decode", global.request {Url = "https://raw.githubusercontent.com/filipisbetter/gui/refs/heads/main/bindstr.json"}.Body)
 library.accent = global.rgb(255, 139, 62)
 library.menubind = Enum.KeyCode.Insert
 library.core = global.hui
