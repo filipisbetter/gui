@@ -1,5 +1,5 @@
 
-local file = loadstring(game:HttpGet("https://raw.githubusercontent.com/fayvrit/millionware/refs/heads/main/library.lua"))()
+local file = loadstring(game:HttpGet("https://raw.githubusercontent.com/filipisbetter/gui/refs/heads/main/library.lua"))()
 local library = file.library
 local lib2 = file:import()
 
